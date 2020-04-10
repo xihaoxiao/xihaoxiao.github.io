@@ -1,0 +1,255 @@
+w<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>联系作者</title>
+
+
+
+    
+	
+
+<style type="text/css">
+
+
+
+body{
+	margin:0;
+	font-size:20px;
+	font-family: "华文新魏";
+	background-color:#E1FAFF;
+	
+}
+h3{
+	text-align:center;
+	font-size:20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+p{
+	font-size:18px;
+	font-family: "方正姚体";
+}
+h1{
+	color:#09F;
+}
+h2{
+	text-align:center;
+}
+
+/********↓↓↓↓↓上导航↓↓↓↓↓↓↓********/
+
+#top_nav{/*整体设置导航外观*/
+	text-align: center;
+	height:auto;
+}
+#top_nav ul{/*去除ul的内外边距*/
+	margin:0;
+	padding:0;
+	position:relative;
+	left:50px;
+	
+}
+#top_nav ul li{/*针对每一个列表项，去除列表前面的列表样式*/
+	list-style-type:none;
+	margin:0px 0px 0px 5px;
+	float:left;
+} 
+#top_nav ul li a{/*设置超链接属性*/
+	display:inline-block;
+	border-left:0px solid #000000;
+	border-right:0px solid #000000;
+	border-bottom:0px solid #000000;/*单独设置左右边框*/
+	width:150px;
+	height:30px;
+	line-height:20px;/*行高*/
+	padding:5px 5px;
+	text-decoration:none;/*去除下划线*/
+	color:#300;
+}
+top_nav ul li a:link,top_nav ul li a:visited{/*设置超链接属性和访问后的属性*/
+	background-color:#CCC;
+	color:#666；
+}
+#top_nav ul li a:hover{/*超链接时经过的属性*/
+	
+	background-color:#E9E9E9;
+	color:#666;
+	text-align:center;
+}
+
+
+
+/********↓↓↓↓↓左导航↓↓↓↓↓*************/
+
+
+#left_nav{/*整体设置导航外观*/
+	text-align:left;
+	height:auto;
+}
+#left_nav ul{/*去除ul的内外边距*/
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+#left_nav ul li{/*针对每一个列表项，去除列表前面的列表样式*/
+	list-style-type:none;
+	
+} 
+#left_nav ul li a{/*设置超链接属性*/
+	display:block;
+	/*单独设置左右边框*/
+	border-left:18px solid #8BC7F8;
+	border-right:0px solid #000000;
+	border-bottom:0px solid #000000;
+	width:160px;
+	height:50px;
+	line-height:20px;/*行高*/
+	padding:5px 5px;
+	text-decoration:none;/*去除下划线*/
+	color:#4891D2;
+	font-family: "楷体";
+}
+left_nav ul li a:link,left_nav ul li a:visited{/*设置超链接属性和访问后的属性*/
+	background-color:#0066c;
+	color:#cccccc;
+}
+#left_nav ul li a:hover{/*超链接时经过的属性*/
+	border-left:20px solid  #8BC7F8;
+	background-color:#8BC7F8;
+	color:#FFF;
+	text-align:center;
+}
+
+
+
+
+/***********↓↓↓↓↓↓布局↓↓↓↓↓↓****************/
+
+
+#container{
+	position: relative;
+	width:1200px;
+		background-image:url(../images/1.png);
+		margin:auto;
+}
+
+#banner{
+	height:200px;
+	background-color:#8BC7F8;
+	
+}
+
+#navigation{
+	height:40px;
+	background-color:#8BC7F8;
+	
+	
+	
+}
+
+#aside{
+	height:300px;
+	width: 250px;
+	background-image:url(../images/1.png);
+	float:left;
+	
+}
+#contant{
+	
+	width:200px;
+	height:300px;
+	text-align:center;
+	
+}
+	
+
+#contant2{
+	height:800px;
+	background-image:url(../images/1.png);
+	
+}
+
+#footer{
+	height:30px;
+	background-color:#8BC7F8;
+}
+
+
+</style>
+</head>
+
+
+
+
+
+
+<body>
+<div id="container">
+
+
+<div id="banner">
+<img src="../images/TOP.jpg">
+</div>
+
+
+
+
+<div id="navigation">
+
+<div id="top_nav">
+<ul>
+<li><a href="../index.html">首页</a></li>
+<li><a href="yypd.html">音乐频道</a></li>
+<li><a href="tppd.html">图片频道</a></li>
+<li><a href="dypd.html">电影频道</a></li>
+<li><a href="lxzz.html">联系作者</a></li>
+<li><a href="zzjs.html">作者介绍</a></li>
+</div>
+</div>
+
+
+
+
+<div id="contant2">
+
+<h3>联系作者</h3>
+<fieldset>
+<legend>信息填写</legend>
+<p>姓名：<input type="text" name="姓名" value="张三" size="10" autofocus="autofocus" />
+<p>性别：<input type="radio" name="radio" name="gender" value="0" checked />男
+     <input type="radio" name="radio" name="gender" value="1" checked />女
+<p>联系邮箱：<input type="text" name="邮箱" value="" size="30" autofocus="autofocus" />
+          <select name="邮箱运营商">
+          <option value="163">@163.com</option>
+          <option value="qq">@qq.com</option> 
+          <option value="gamil">@gamil.com</option>             
+          </select>
+
+<p>喜爱的频道：<input type="checkbox" name="like" value="music"/>音乐频道
+            <input type="checkbox" name="like" value="movie"/>电影频道
+            <input type="checkbox" name="like" value="photoes"/>图片频道
+<p>内容:</p>
+<p><textarea rows="15" cols="60" maxlenth="200" placeholder="请输入需要联系的问题或者建议"></textarea>
+
+</fieldset>
+<h1 align="center"><input type="submit" value="提交"/>
+<input type="reset" value="重置"/>
+</h1>
+
+
+
+
+</div>
+ 
+
+
+
+
+
+ 
+
+</div>
+<div id="footer"><h3>作者<a href="mailto:573183877@qq.com">@573183877</a>  </h3></div>
+</div>
+</body>
+</html>

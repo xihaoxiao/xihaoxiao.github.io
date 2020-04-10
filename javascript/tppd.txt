@@ -1,0 +1,11 @@
+<script type="text/javascript">
+i=1;
+function changeImg(){
+	i++;
+	document.getElementById("img1").src="../images/images/"+i+".jpg";
+	if(i==13)
+	{
+		i=1;
+	}
+}
+</script>
